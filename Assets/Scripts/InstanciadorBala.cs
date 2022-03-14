@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,15 @@ public class InstanciadorBala : MonoBehaviour
     [SerializeField] private Transform spawner;
     void Start()
     {
-        Instantiate(bala, spawner);
+        
+        
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown("space"))
+        {
+            Instantiate(bala, spawner.position, Quaternion.identity);
+        }
     }
 }
