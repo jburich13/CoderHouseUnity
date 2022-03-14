@@ -4,18 +4,10 @@ using UnityEngine;
 
 public class BalaMovimiento : MonoBehaviour
 {
-    [SerializeField] private Vector3 direction = new Vector3(0.01f, 0, 0);
-
-    [SerializeField] private float speed = 0.1f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    [SerializeField] private Vector3 direccion = new Vector3(0.01f, 0, 0);
+    [SerializeField] private float velocidad = 0.1f;
     void Update()
     {
-        transform.position -= direction * speed * Time.deltaTime;
+        transform.position -= direccion * velocidad * Time.deltaTime;
     }
 }

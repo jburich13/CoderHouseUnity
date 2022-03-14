@@ -6,16 +6,9 @@ public class InstanciadorBala : MonoBehaviour
 {
     [SerializeField] private GameObject bala;
 
-    [SerializeField] private Transform Spawner;
-    // Start is called before the first frame update
+    [SerializeField] private Transform spawner;
     void Start()
     {
-        Instantiate(bala, Spawner);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Instantiate(bala, spawner);
     }
 }
