@@ -3,7 +3,11 @@ guid: c5bd638889470fa43932f051bf0d6f00
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - bala: {fileID: 1674838400584676918, guid: 737f23c126d9f0a44bfbd4a4ec432f7b, type: 3}
+  - spawner: {instanceID: 0}
+  - humo: {instanceID: 0}
+  - fuego: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
