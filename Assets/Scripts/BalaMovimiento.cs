@@ -10,4 +10,5 @@ public class BalaMovimiento : MonoBehaviour
     {
         transform.position -= direccion * velocidad * Time.deltaTime;
     }
+    
 }

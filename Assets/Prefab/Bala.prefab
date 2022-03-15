@@ -109,4 +109,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direccion: {x: 0.01, y: 0, z: 0}
-  velocidad: 100
+  velocidad: 106.06
+  tiempoParaMoverese: 1.84

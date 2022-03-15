@@ -5,10 +5,9 @@ using UnityEngine;
 public class InstanciadorBala : MonoBehaviour
 {
     [SerializeField] private GameObject bala;
-
     [SerializeField] private Transform spawner;
     void Start()
     {
-        Instantiate(bala, spawner);
+        Instantiate(bala,spawner);
     }
 }
