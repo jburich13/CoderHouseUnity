@@ -15,7 +15,7 @@ public class Enemigo2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(transform.position, target.transform.position) > 10)
+        if (Vector3.Distance(transform.position, target.transform.position) > 2)
         {
             MoverHaciaVin();
         } else Debug.Log("Esta muy cerca");

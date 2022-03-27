@@ -28,7 +28,7 @@ public class Enemigo3 : MonoBehaviour
         switch (eleccion)
         {
             case Eleccion.moverteHaciaVin:
-                if (Vector3.Distance(transform.position, target.transform.position) > 10)
+                if (Vector3.Distance(transform.position, target.transform.position) > 2)
                 {
                     moverHaciaVin();
                 } else Debug.Log("Esta muy cerca");
